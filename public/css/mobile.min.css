@@ -1,0 +1,5 @@
+body{font-size:18px;line-height:27px;max-width:640px;min-width:320px}*{-webkit-tap-highlight-color:rgba(0,0,0,0)}.wrapper{max-width:640px;min-width:320px;overflow:auto}
+.gallery__figure{height:auto!important;margin:0 auto;min-height:50vh;padding:1px 0;width:100%}body[data-zoom="50"] .gallery__figure{min-height:20vh!important;width:50%}
+body[data-zoom="100"] .gallery__figure{width:100%}body[data-zoom="150"] .gallery__figure{width:150%}
+body[data-zoom="200"] .gallery__figure{width:200%}body[data-zoom="250"] .gallery__figure{width:250%}
+body[data-zoom="300"] .gallery__figure{width:300%}.gallery__image{width:100%}.control-panel__element_scale{display:none}

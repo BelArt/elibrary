@@ -1,0 +1,10 @@
+.fund-item {display: flex;justify-content: space-between;;
+  &-number {font-weight: bold;}
+}
+
+.fund-form {
+  &-row {padding: 4px 20px;}
+  h3 {background-color: #eee;padding: 10px 20px;}
+}
+
+.list-item a:hover {text-decoration: none;}

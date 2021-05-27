@@ -1,0 +1,6 @@
+.block-search {position: relative;}
+.rows-results {position: absolute;top: calc(100% - 10px);z-index: 14;background: #fff;border: 1px solid #ccc;width: 100%;}
+.result_link {display: block;padding: 5px 10px;}
+.result_link:hover {background-color: #605708;color: #fff;}
+.no-results-input:active, .no-results-input:focus, .no-results-input {background: #faa;opacity: 0.7;border: 1px solid #fa6362;}
+.no-cases {padding: 25px;}

@@ -1,0 +1,38 @@
+.site-header {
+  background-color: #000;
+  h5 {color: #fff;}
+
+}
+
+.header_title {padding: 1rem !important;}
+nav .topLnk {padding: 1rem !important;}
+nav .topLnk {transition: 0.3s all;margin: -1px;display: inline-block;
+  &:hover {text-decoration: none;background-color: #ccc;color: #333 !important;}
+  &.active, &.active:hover {background-color: #fff;color: #000 !important;margin: -1px;display: inline-block;
+    border-bottom: 1px solid #fff}
+}
+
+.marTop30 {margin-top: 30px;
+  @media (max-width: 700px) {
+    margin-top: 10px;
+  }
+}
+.marBot30 {margin-bottom: 30px;
+  @media (max-width: 700px) {
+    margin-bottom: 10px;
+  }
+}
+
+.filter {
+  background-color: #eee;border-radius: 10px;padding: 15px 25px;
+}
+
+#rightForm {z-Index: 10050;position: fixed;top: 0px;right: -450px;bottom: 0px;width: 450px;background: #eee;overflow-y: scroll;
+  transition: 0.3s all;}
+#rightFormFon {z-Index: 10049;position: fixed;top: 0px;left: 0px;bottom: 0px;right: 0px;background: #000;opacity: 0.6;display: none;}
+.noscroll {overflow: hidden;}
+
+.alertify .ajs-modal {z-index: 10051 !important;}
+.alertify-notifier {z-index: 10100 !important;}
+
+.noscroll {overflow: hidden;}
